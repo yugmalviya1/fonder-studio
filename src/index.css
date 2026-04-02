@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Font 1 */
+@font-face {
+  font-family: 'FontOne';
+  src: url('/fonts/7f673afc1973feef-s.p.ttf') format('truetype');
+}
+
+/* Font 2 */
+@font-face {
+  font-family: 'FontTwo';
+  src: url('/fonts/9c9533f89da153b8-s.p.ttf') format('truetype');
+}
+
+/* Font 3 */
+@font-face {
+  font-family: 'FontThree';
+  src: url('/fonts/132a3c73002d795f-s.p.ttf') format('truetype');
+}
+
+/* Font 4 */
+@font-face {
+  font-family: 'FontFour';
+  src: url('/fonts/aabfdd77d4dda7f6-s.p.ttf') format('truetype');
+}
+
+/* Font 5 */
+@font-face {
+  font-family: 'FontFive';
+  src: url('/fonts/e57b2665b6721274-s.p.ttf') format('truetype');
+}
+
+.font-one {
+  font-family: 'FontOne', sans-serif;
+}
+
+.font-two {
+  font-family: 'FontTwo', sans-serif;
+}
+
+.font-three {
+  font-family: 'FontThree', sans-serif;
+}
+
+.font-four {
+  font-family: 'FontFour', sans-serif;
+}
+
+.font-five {
+  font-family: 'FontFive', sans-serif;
+}
